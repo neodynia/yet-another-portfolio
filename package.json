@@ -1,0 +1,15 @@
+{
+  "name": "yet-another-portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "personal",
+    "portfolio"
+  ],
+  "author": "ryan boris",
+  "license": "ISC"
+}
