@@ -1,8 +1,56 @@
-/* Major Section -- Semantic Element Stylings*/
+/* Major Section -- Semantic Element Stylings* -- Full Page Grids and Flexboxes*/
+html,
+body,
+header,
+nav,
+main,
+section,
+footer,
+div,
+span, 
+img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
 /*Header Stylings*/
 
 /*Nav Stylings*/
+nav {
+
+}
+.nav-bar {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  border: #000 solid 1vmin;
+  margin: 10vh;
+  padding: 5%;
+  border-radius: 5%;
+  background: linear-gradient(45deg, rgba(200, 0, 0, 0.35), #fff)
+}
+.nav-link {
+  font-family: Monaco;
+  font-size: 1.25em;
+  border-left: 10px;
+  border-right: 10px;
+  border-top: 0;
+  border-bottom: 0;
+  border-color: #000;
+  border-style: dotted;
+  margin: 2%;
+  padding: 20px;
+  
+  
+}
+a:active {
+  color: rgba(200, 0, 0, 1);
+}
+a:hover {
+  color: #a00;
+}
 
 /*Main Stylings - Including Relevant Articles, Sections, Blocks, and Inlines*/
 
