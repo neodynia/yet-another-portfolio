@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "git" : "https://github.com/neodynia/yet-another-portfolio.git"
+  },
   "keywords": [
     "personal",
     "portfolio"
