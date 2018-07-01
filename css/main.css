@@ -2,18 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css?family=Bangers|Pacifico');
 /* Major Section -- Semantic Element Stylings* -- Full Page Grids and Flexboxes*/
+@media screen and (min-width: 500px) {
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  max-width: 100%;
+  width: 100%;
 }
+
+
 
 .container {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 150px 1fr;
   grid-template-rows: repeat(3, 250px); 
   align-items: center;
+  background: radial-gradient(circle at 100%, #9198e5, #fff, rgba(126, 228, 177, 0.5));
 
 }
 /*Header Stylings*/
@@ -36,9 +42,6 @@ header {
   justify-content: center;
   font-family: 'Special Elite', cursive;
   font-size: 1.5rem;
-  
-
-
 }
 
 h1 {
@@ -72,36 +75,6 @@ main {
   grid-row-gap: 8rem;
   justify-items: center;
   align-items: center;
-  
-
-}
-
-article#udacity {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-article#freecodecamp {
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-article#coursera {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3; 
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-article#self-discovered {
-  grid-column: 2 / 3; 
-  grid-row: 2 / 3;
-  display: flex;
-  flex-flow: column nowrap;
 }
 
 a:link {
@@ -121,7 +94,7 @@ main {
   flex-flow: column nowrap;
 }
 
-
+}
 
 /*Main Stylings - Including Relevant Articles, Sections, Blocks, and Inlines*/
 
